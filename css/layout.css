@@ -1,0 +1,93 @@
+html,body {
+	font-family:'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, 'sans-serif';
+	font-size: 14px;
+	height: auto;
+	width: auto;
+	margin: 0;
+	padding: 0;
+	cursor: default;
+	min-width: 1000px;
+	overflow-x: hidden;
+}
+
+header { 
+	height: 65px;
+	width: 100%;
+	color: transparent;
+	font-size: 40px;
+	background-color: black;
+	padding: 0 0 0 30px;
+	display: table;
+}
+
+header.page { 
+	position: fixed;
+	z-index: 9999999;
+}
+
+header a {
+	text-decoration: none;
+	color: white;
+	float: left;
+}
+
+header a:hover {
+	color: pink;
+}
+
+header .clock {
+	float: left;
+	color: white;
+	margin-left: 18%;
+}
+
+menu {
+	float: right;
+	display: table;
+	width: auto;
+	height: 40px;
+	margin: 0;
+	padding: 15px 0 0 0;
+	margin-right: 60px;
+}
+
+menu a {
+	float: left;
+	margin-left: 20px;
+	color: white;
+	text-decoration: none;
+	font-size: 24px;
+}
+
+menu a.active {
+	color: #128fa0;
+}
+
+menu a:hover {
+	color: darkorange;
+}
+
+body.body-other {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background: fixed #001940 url('../media/images/site/background.jpg') no-repeat center center;
+	background-size: 100% 100%;
+	overflow-x: hidden;
+}
+
+footer {
+	font-size: 16px;
+	background-color: rgba(0,0,0,0.75);	
+	padding: 10px;
+}
+
+footer.page {
+	font-size: 16px;
+	padding: 10px;
+}
+
+footer .copyright {
+	color: white;
+}
